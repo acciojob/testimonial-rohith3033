@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-body {
+/* body {
 	
 	background-color: #f5f5f5;
 	margin: 20px;
@@ -30,5 +30,38 @@ body {
     display: block;
     text-align: right;
     font-style: italic;
+    color: #000;
+} */
+
+.testimonials {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f7f7f7; /* light background */
+    /* font-family: Arial, sans-serif; */
+}
+
+.testimonials h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.testimonial .text {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    color: #000;
+}
+
+.testimonial .author {
+    text-align: right;
+    font-style: italic;
+    margin: 0;
     color: #000;
 }
